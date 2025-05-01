@@ -27,7 +27,7 @@ import sqlite3
 from pathlib import Path
 
 
-token_bot = '7763825766:AAHJHy7B1WezT86zd-d70nSYAUQSsJbtee8'
+token_bot = 'ВАШ ТОКЕН БОТА'
 
 # Инициализация базы администраторов
 ADMINS_DB = Path('config.db')
