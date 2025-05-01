@@ -40,7 +40,7 @@ def init_admins_db():
                       added_by TEXT)''')  # Храним только username
         # Добавляем первого админа если база пуста
         if not conn.execute('SELECT 1 FROM admins').fetchone():
-            conn.execute('INSERT INTO admins VALUES (?, ?)', ("usermane04", "system"))
+            conn.execute('INSERT INTO admins VALUES (?, ?)', ("имя пользаватель ВАШ ПЕРВОГО АДМИНА", "system"))
 
 def add_admin_sync(username: str, added_by: str):
     #Добавляет администратора по username"""
