@@ -105,16 +105,7 @@ ADMINS="username"
 python bot.py
 ```
 
----
 
-### 🐳 Запуск через Docker
- - Проект также доступен на Docker Hub.
-
-📦 Быстрый запуск:
-```
-docker pull simon2008/study_mate
-docker run --rm simon2008/study_mate
-```
 
 ---
 
